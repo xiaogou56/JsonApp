@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>JsonBundle.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>MockTool.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -18,6 +23,11 @@
 			<true/>
 		</dict>
 		<key>5233E7D91BEF18F60053C977</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5233E7F01BEF25B40053C977</key>
 		<dict>
 			<key>primary</key>
 			<true/>

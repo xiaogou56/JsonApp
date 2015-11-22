@@ -13,6 +13,7 @@
 		5233E7D11BEF18F60053C977 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5233E7D01BEF18F60053C977 /* Assets.xcassets */; };
 		5233E7D41BEF18F60053C977 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5233E7D21BEF18F60053C977 /* Main.storyboard */; };
 		5233E7DF1BEF18F60053C977 /* MockToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5233E7DE1BEF18F60053C977 /* MockToolTests.m */; };
+		5233E7EC1BEF1F860053C977 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5233E7EB1BEF1F860053C977 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		5233E7DA1BEF18F60053C977 /* MockToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MockToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5233E7DE1BEF18F60053C977 /* MockToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MockToolTests.m; sourceTree = "<group>"; };
 		5233E7E01BEF18F60053C977 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5233E7EB1BEF1F860053C977 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5233E7EC1BEF1F860053C977 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				5233E7C61BEF18F60053C977 /* MockTool */,
+				5233E7EB1BEF1F860053C977 /* WebKit.framework */,
 				5233E7DD1BEF18F60053C977 /* MockToolTests */,
 				5233E7C51BEF18F60053C977 /* Products */,
 			);
@@ -153,7 +157,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0710;
-				ORGANIZATIONNAME = Qunar;
+				ORGANIZATIONNAME = Q;
 				TargetAttributes = {
 					5233E7C31BEF18F60053C977 = {
 						CreatedOnToolsVersion = 7.1;
@@ -391,6 +395,7 @@
 				5233E7E51BEF18F60053C977 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5233E7E61BEF18F60053C977 /* Build configuration list for PBXNativeTarget "MockToolTests" */ = {
 			isa = XCConfigurationList;
@@ -399,6 +404,7 @@
 				5233E7E81BEF18F60053C977 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

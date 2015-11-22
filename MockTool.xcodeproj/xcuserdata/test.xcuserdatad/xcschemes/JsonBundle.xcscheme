@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5233E7C31BEF18F60053C977"
-               BuildableName = "MockTool.app"
-               BlueprintName = "MockTool"
+               BlueprintIdentifier = "5233E7F01BEF25B40053C977"
+               BuildableName = "JsonBundle.bundle"
+               BlueprintName = "JsonBundle"
                ReferencedContainer = "container:MockTool.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,26 +28,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5233E7D91BEF18F60053C977"
-               BuildableName = "MockToolTests.xctest"
-               BlueprintName = "MockToolTests"
-               ReferencedContainer = "container:MockTool.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5233E7C31BEF18F60053C977"
-            BuildableName = "MockTool.app"
-            BlueprintName = "MockTool"
-            ReferencedContainer = "container:MockTool.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -61,16 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5233E7C31BEF18F60053C977"
-            BuildableName = "MockTool.app"
-            BlueprintName = "MockTool"
+            BlueprintIdentifier = "5233E7F01BEF25B40053C977"
+            BuildableName = "JsonBundle.bundle"
+            BlueprintName = "JsonBundle"
             ReferencedContainer = "container:MockTool.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -80,16 +60,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5233E7C31BEF18F60053C977"
-            BuildableName = "MockTool.app"
-            BlueprintName = "MockTool"
+            BlueprintIdentifier = "5233E7F01BEF25B40053C977"
+            BuildableName = "JsonBundle.bundle"
+            BlueprintName = "JsonBundle"
             ReferencedContainer = "container:MockTool.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
